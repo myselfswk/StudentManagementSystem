@@ -1,0 +1,12 @@
+F:\VPL Assignments\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe.config
+F:\VPL Assignments\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe
+F:\VPL Assignments\StudentManagementSystem\bin\Debug\StudentManagementSystem.pdb
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.csprojAssemblyReference.cache
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.Form1.resources
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.exe
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.pdb
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.AddStudent.resources
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.ViewStudent.resources
