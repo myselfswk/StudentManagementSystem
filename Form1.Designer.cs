@@ -117,15 +117,16 @@ namespace StudentManagementSystem
             // addCourseToolStripMenuItem
             // 
             this.addCourseToolStripMenuItem.Name = "addCourseToolStripMenuItem";
-            this.addCourseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addCourseToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.addCourseToolStripMenuItem.Text = "Add Course";
             this.addCourseToolStripMenuItem.Click += new System.EventHandler(this.addCourseToolStripMenuItem_Click);
             // 
             // viewCourseToolStripMenuItem
             // 
             this.viewCourseToolStripMenuItem.Name = "viewCourseToolStripMenuItem";
-            this.viewCourseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.viewCourseToolStripMenuItem.Text = "View Course";
+            this.viewCourseToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.viewCourseToolStripMenuItem.Text = "View/Modify Course";
+            this.viewCourseToolStripMenuItem.Click += new System.EventHandler(this.viewCourseToolStripMenuItem_Click);
             // 
             // Form1
             // 

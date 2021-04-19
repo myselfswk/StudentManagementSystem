@@ -36,10 +36,10 @@ namespace StudentManagementSystem
             this.lblOfferedDate = new System.Windows.Forms.Label();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.txtDescriptions = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtCR = new System.Windows.Forms.NumericUpDown();
+            this.DTPicker = new System.Windows.Forms.DateTimePicker();
             this.btnAddCourse = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCR)).BeginInit();
             this.SuspendLayout();
             // 
             // lbladdCourse
@@ -76,7 +76,7 @@ namespace StudentManagementSystem
             // 
             this.lblCR.AutoSize = true;
             this.lblCR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCR.Location = new System.Drawing.Point(151, 188);
+            this.lblCR.Location = new System.Drawing.Point(151, 239);
             this.lblCR.Name = "lblCR";
             this.lblCR.Size = new System.Drawing.Size(98, 20);
             this.lblCR.TabIndex = 1;
@@ -86,7 +86,7 @@ namespace StudentManagementSystem
             // 
             this.lblOfferedDate.AutoSize = true;
             this.lblOfferedDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOfferedDate.Location = new System.Drawing.Point(151, 239);
+            this.lblOfferedDate.Location = new System.Drawing.Point(151, 290);
             this.lblOfferedDate.Name = "lblOfferedDate";
             this.lblOfferedDate.Size = new System.Drawing.Size(102, 20);
             this.lblOfferedDate.TabIndex = 1;
@@ -98,37 +98,53 @@ namespace StudentManagementSystem
             this.txtTitle.Location = new System.Drawing.Point(309, 91);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(201, 26);
-            this.txtTitle.TabIndex = 2;
+            this.txtTitle.TabIndex = 1;
             // 
             // txtDescriptions
             // 
             this.txtDescriptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescriptions.Location = new System.Drawing.Point(309, 137);
+            this.txtDescriptions.Multiline = true;
             this.txtDescriptions.Name = "txtDescriptions";
-            this.txtDescriptions.Size = new System.Drawing.Size(201, 26);
+            this.txtDescriptions.Size = new System.Drawing.Size(201, 76);
             this.txtDescriptions.TabIndex = 2;
             // 
-            // numericUpDown1
+            // txtCR
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(309, 187);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(201, 26);
-            this.numericUpDown1.TabIndex = 3;
+            this.txtCR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCR.Location = new System.Drawing.Point(309, 238);
+            this.txtCR.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.txtCR.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.txtCR.Name = "txtCR";
+            this.txtCR.Size = new System.Drawing.Size(201, 26);
+            this.txtCR.TabIndex = 3;
+            this.txtCR.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // dateTimePicker1
+            // DTPicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(309, 238);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 4;
+            this.DTPicker.Location = new System.Drawing.Point(309, 289);
+            this.DTPicker.Name = "DTPicker";
+            this.DTPicker.Size = new System.Drawing.Size(200, 20);
+            this.DTPicker.TabIndex = 4;
             // 
             // btnAddCourse
             // 
             this.btnAddCourse.BackColor = System.Drawing.Color.YellowGreen;
             this.btnAddCourse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddCourse.ForeColor = System.Drawing.Color.White;
-            this.btnAddCourse.Location = new System.Drawing.Point(309, 294);
+            this.btnAddCourse.Location = new System.Drawing.Point(309, 345);
             this.btnAddCourse.Name = "btnAddCourse";
             this.btnAddCourse.Size = new System.Drawing.Size(200, 44);
             this.btnAddCourse.TabIndex = 5;
@@ -142,8 +158,8 @@ namespace StudentManagementSystem
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(710, 450);
             this.Controls.Add(this.btnAddCourse);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.DTPicker);
+            this.Controls.Add(this.txtCR);
             this.Controls.Add(this.txtDescriptions);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.lblOfferedDate);
@@ -152,8 +168,8 @@ namespace StudentManagementSystem
             this.Controls.Add(this.lbltitle);
             this.Controls.Add(this.lbladdCourse);
             this.Name = "AddCourses";
-            this.Text = "AddCourses";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Text = "Add Courses";
+            ((System.ComponentModel.ISupportInitialize)(this.txtCR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,8 +184,8 @@ namespace StudentManagementSystem
         private System.Windows.Forms.Label lblOfferedDate;
         private System.Windows.Forms.TextBox txtTitle;
         private System.Windows.Forms.TextBox txtDescriptions;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.NumericUpDown txtCR;
+        private System.Windows.Forms.DateTimePicker DTPicker;
         private System.Windows.Forms.Button btnAddCourse;
     }
 }
