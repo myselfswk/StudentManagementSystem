@@ -32,6 +32,12 @@ namespace StudentManagementSystem
                 //two methods to add data (Fill, Update)
                 sqlDataAdapter.Fill(dataSet, "[addCourses]");
 
+                lbCourses.DataSource = dataSet.Tables["[addCourses]"];
+
+                //display member: data which is shown on UI
+                //value member: data which is working on backend
+                lbCourses.DisplayMember = "title";
+                lbCourses.ValueMember = "id";
             }
             catch (Exception ex)
             {

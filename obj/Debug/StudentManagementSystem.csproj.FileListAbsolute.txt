@@ -11,3 +11,4 @@ F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.pdb
 F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.AddStudent.resources
 F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.ViewStudent.resources
 F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.AddCourses.resources
+F:\VPL Assignments\StudentManagementSystem\obj\Debug\StudentManagementSystem.ModifyCourses.resources
