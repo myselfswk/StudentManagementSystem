@@ -35,5 +35,12 @@ namespace StudentManagementSystem
             viewStudent.MdiParent = this;
             viewStudent.Show();
         }
+
+        private void addCourseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddCourses addCourses = new AddCourses();
+            addCourses.MdiParent = this;
+            addCourses.Show();
+        }
     }
 }

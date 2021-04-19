@@ -70,38 +70,38 @@ namespace StudentManagementSystem
             // addStudentToolStripMenuItem
             // 
             this.addStudentToolStripMenuItem.Name = "addStudentToolStripMenuItem";
-            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.addStudentToolStripMenuItem.Text = "Add Student";
             this.addStudentToolStripMenuItem.Click += new System.EventHandler(this.addStudentToolStripMenuItem_Click);
             // 
             // viewStudentToolStripMenuItem
             // 
             this.viewStudentToolStripMenuItem.Name = "viewStudentToolStripMenuItem";
-            this.viewStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewStudentToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.viewStudentToolStripMenuItem.Text = "View Student";
             this.viewStudentToolStripMenuItem.Click += new System.EventHandler(this.viewStudentToolStripMenuItem_Click);
             // 
             // updateStudentToolStripMenuItem
             // 
             this.updateStudentToolStripMenuItem.Name = "updateStudentToolStripMenuItem";
-            this.updateStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.updateStudentToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.updateStudentToolStripMenuItem.Text = "Update Student";
             // 
             // deleteStudentToolStripMenuItem
             // 
             this.deleteStudentToolStripMenuItem.Name = "deleteStudentToolStripMenuItem";
-            this.deleteStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteStudentToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.deleteStudentToolStripMenuItem.Text = "Delete Student";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(153, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -119,6 +119,7 @@ namespace StudentManagementSystem
             this.addCourseToolStripMenuItem.Name = "addCourseToolStripMenuItem";
             this.addCourseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addCourseToolStripMenuItem.Text = "Add Course";
+            this.addCourseToolStripMenuItem.Click += new System.EventHandler(this.addCourseToolStripMenuItem_Click);
             // 
             // viewCourseToolStripMenuItem
             // 
